@@ -1,0 +1,147 @@
+/* Pc */
+@media (min-width: 64em) {
+    .search-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+    }
+}
+
+/* Tablet */
+@media (max-width: 63.9375em) and (min-width: 46.25em) {
+    .search-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+    }
+}
+
+@media (max-width: 63.9375em) {
+    .infor_ticket .content-tickets button {
+        padding: 14px 16px;
+    }
+    .form .send {
+        padding: 11px 31px;
+    }
+    .form input {
+        line-height: 27px;
+    }
+    .footer-section i {
+        font-size: 25px;
+        margin: 0px 8px;
+    }
+    .footer-section .powered {
+        font-size: 20px;
+    }
+    .infor-contact i {
+        line-height: 2;
+    }
+}
+
+/* Moblie */
+@media (max-width: 46.1875em) {
+    #header {
+        display: unset;
+        overflow: hidden;
+    }
+
+    #nav{
+        display: flex;
+        flex-direction: column;
+        height: 46px;
+    }
+
+    #nav .subnav{
+        display: none;
+        position: initial;
+        background-color: #959595;
+    }
+
+    #nav .subnav a{
+        padding-left: 10%;
+    }
+
+    .search-btn{
+        display: none;
+    }
+
+    .menu-bar-btn{
+        display: block;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+    }
+
+    #nav>li:first-child {
+        width: 23%;
+    }
+
+    .about-section .bandname {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-section .bandname .picture-name img {
+        width: 55vw;
+        height: auto;
+        border-radius: 4px;
+        padding-bottom: 20px;
+    }
+
+    .tour-section .ticket_sales {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infor_ticket + .infor_ticket {
+        margin-left: 0px;
+    }
+
+    .ticket_sales .infor_ticket {
+        margin-bottom: 16px;
+    }
+
+    .infor_ticket .content-tickets button{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text-contact {
+        padding: 32px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infor-contact {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .form {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .form .send{
+        width: 100%;
+    }
+
+    .name-email {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form .name-email .email{
+        margin: 8px 0px;
+    }
+
+    .name-email>input {
+        width: 100%;
+    }
+}
+
